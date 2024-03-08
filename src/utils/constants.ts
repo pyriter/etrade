@@ -1,1 +1,1 @@
-export const CREDENTIALS_FILE_NAME = 'credentials.json';
+export const CREDENTIALS_FILE_NAME = "credentials.json";

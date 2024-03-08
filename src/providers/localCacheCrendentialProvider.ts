@@ -1,4 +1,4 @@
-import { CredentialProvider, Credentials } from './credentialProvider';
+import { CredentialProvider, Credentials } from "./credentialProvider";
 
 export class LocalCacheCredentialProvider implements CredentialProvider {
   constructor(private credentials: Credentials) {}
@@ -8,7 +8,7 @@ export class LocalCacheCredentialProvider implements CredentialProvider {
   }
 
   update(credentials: Credentials): Promise<void> {
-    throw new Error('Not implemented');
+    throw new Error("Not implemented");
   }
 
   async getCredential(): Promise<Credentials> {
@@ -16,6 +16,6 @@ export class LocalCacheCredentialProvider implements CredentialProvider {
   }
 
   fetch(): Promise<Credentials> {
-    throw new Error('Not implemented');
+    throw new Error("Not implemented");
   }
 }

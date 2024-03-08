@@ -1,6 +1,6 @@
 {
   "name": "@pyriter/etrade",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "E-trade client written in typescript for Nodejs.",
   "main": "dist/main.js",
   "type": "module",
